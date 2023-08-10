@@ -1,10 +1,12 @@
 import React from 'react'
+import Nav from './Nav'
 
-function Header() {
+function Header(props) {
   return (
-    <div>
-      <h1>Santi Arroyo Porfolio</h1>
-    </div>
+    <header>
+      <h1>Santi Arroyo</h1>
+      <Nav setCurrentPage = {props.setCurrentPage}/>
+    </header>
   )
 }
 
