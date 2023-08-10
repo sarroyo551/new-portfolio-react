@@ -19,6 +19,12 @@
 
 footer {
   height: 150px;
+  display: flex;
+  justify-content: center;
+}
+
+footer ul {
+  list-style: none;
 }
 
 header {
@@ -56,3 +62,24 @@ header h1 {
   color: rgb(255, 255, 255);
 }
 
+form {
+  width: 100%;
+}
+
+.inputContainer {
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+  margin-bottom: 20px;
+}
+
+
+
+
+
+@media screen and (max-width: 768px) {
+  .content {
+    width: 90%;
+  }
+}
+  
