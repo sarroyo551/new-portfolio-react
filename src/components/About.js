@@ -2,7 +2,7 @@ import React from 'react'
 
 function About() {
   return (
-    <div>
+    <div className='content'>
       <h1>About</h1>
       <p class="bio-text">My name is Santi Arroyo. I grew up living all around the US and in Spain. For the majority of my adult life I have lived in New Jersey and Massachusetts. I attended Berklee School of Music for college. I am passionate about music, comedy, movies, and video games. I hope to mix my passion for coding and the comedy in my future career.
             <br></br>
