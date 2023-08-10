@@ -90,8 +90,20 @@ form {
   border: 2px ridge rgb(11, 11, 11);
 }
 
+.project {
+  width: 100%;
+}
 
+.projectImage {
+  width: 30%;
+  max-width: 300px;
+}
 
+@media screen and (max-width: 992px) {
+  .content {
+    width: 80%;
+  }
+}
 
 @media screen and (max-width: 768px) {
   .content {

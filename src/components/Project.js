@@ -1,16 +1,13 @@
 import React from 'react'
 
-function Project() {
+function Project(props) {
   return (
-    <div>
-      <h1>Project</h1>
       <div class="project">
-                <p>Musicale</p>
-                <a href="https://musicale-app-f8a5312a774d.herokuapp.com/" target="_blank">
-                <img src={`${process.env.PUBLIC_URL}/images/musicale.png`} alt="picture of musicale site"/>
+                <p>{props.project.title}</p>
+                <a href={props.project.link}target="_blank">
+                <img className='projectImage' src={`${process.env.PUBLIC_URL}/images/${props.project.image}`} alt={props.project.alt}/>
             </a>
-            </div>
-    </div>
+      </div>
   )
 }
 
