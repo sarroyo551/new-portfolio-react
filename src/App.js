@@ -17,6 +17,7 @@ function App() {
       { currentPage === 'Portfolio' && <Portfolio /> }
       { currentPage === 'About' && <About /> }
       { currentPage === 'Contact' && <Contact /> }
+      { currentPage === 'Resume' && <Resume /> }
       </div>
       <Footer />
     </div>

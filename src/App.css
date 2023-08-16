@@ -99,6 +99,10 @@ form {
   max-width: 300px;
 }
 
+.footerUl {
+  border: 1px solid rgb(107, 105, 231);
+  border-radius: 5px;
+}
 @media screen and (max-width: 992px) {
   .content {
     width: 80%;
