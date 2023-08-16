@@ -9,7 +9,18 @@ function Portfolio() {
       image: 'musicale.png',
       alt: 'Musicale App'
     },
-    //add other projects here
+    {
+      title: 'Activity Roulette',
+      link: 'https://sarroyo551.github.io/Activity-Roulette/',
+      image: 'ARproject.png',
+      alt: 'Activity Roulette'
+    },
+    {
+      title: 'Horiseon',
+      link: 'https://sarroyo551.github.io/urban-octo-telegram/',
+      image: 'horiseon.png',
+      alt: 'Horiseon Website'
+    }
   ]
   return (
     <div className='content'>
