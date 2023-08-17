@@ -1,13 +1,11 @@
 import React from 'react'
-// import resumeImg from './resume.png'
 
 function Resume() {
-  // const resumeImg = require('./resume.png')
   return (
-    <div>
+    <div className='content' id='resume'>
       <h1>Resume</h1>
-      {/* <img src={resumeImg}> */}
-      {/* </img> */}
+      <img id='resumeImg'src={`${process.env.PUBLIC_URL}/images/resume.png`}/>
+      <a href={`${process.env.PUBLIC_URL}/resume.pdf`} download='santi-resume'>Download</a>
     </div>
   )
 }
