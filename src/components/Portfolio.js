@@ -5,7 +5,7 @@ function Portfolio() {
   const projects = [
     {
       title: 'Musicale App',
-      link: 'https://musicale.herokuapp.com/',
+      link: 'https://musicale-app-f8a5312a774d.herokuapp.com/',
       image: 'musicale.png',
       alt: 'Musicale App'
     },
