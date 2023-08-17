@@ -100,8 +100,9 @@ form {
 }
 
 .footerUl {
-  border: 1px solid rgb(107, 105, 231);
+  border: 4px solid rgb(152, 150, 240);
   border-radius: 5px;
+  margin: 29px;
 }
 @media screen and (max-width: 992px) {
   .content {

@@ -22,12 +22,15 @@ function Portfolio() {
       alt: 'Horiseon Website'
     }
   ]
-  const arrayProjects = projects.map((project) => <li>{project}</li>)
+  // const arrayProjects = projects.map((project) => <li>{project}</li>)
   return (
     <div className='content'>
       <h1>Portfolio</h1>
       {/* <Project project={projects[0]}/> */}
-      <Project project={arrayProjects}/>
+      {/* <Project project={arrayProjects}/> */}
+      <div>
+        {projects.map((project) => <Project project={project}/>)}
+      </div>
       {/* //use map in react to render array of items */}
     </div>
     
