@@ -16,10 +16,10 @@ function Portfolio() {
       alt: 'Activity Roulette'
     },
     {
-      title: 'Horiseon',
-      link: 'https://sarroyo551.github.io/urban-octo-telegram/',
-      image: 'horiseon.png',
-      alt: 'Horiseon Website'
+      title: 'FitGuide',
+      link: 'https://health-wellness-intro-planner-15375fd8b435.herokuapp.com/',
+      image: 'fitguide.png',
+      alt: 'FitGuide app'
     }
   ]
   return (
